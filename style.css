@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,100&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(3, 18, 27);
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.main {
+  background-color: rgb(92, 92, 92);
+  height: 670px;
+  width: 470px;
+  border-radius: 15px;
+  margin-top: 8%;
+  padding: 15px;
+  border: 3px solid rgb(14, 40, 88);
+}
+
+.title-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title>h1 {
+  color: rgb(159, 159, 161);
+  font-size: 22px;
+  margin-right: 6px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  font-weight: 200;
+}
+
+.model>h1 {
+  color: rgb(188, 188, 197);
+  font-size: 22px;
+  margin-right: 6px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.screen {
+  background-color: rgba(0, 255, 34, 0.363);
+  height: 80px;
+  border-radius: 10px;
+  border: 2px solid rgba(0, 195, 255, 0.801);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  padding: 20px;
+}
+
+.screen-content {
+  color: rgb(0, 255, 242);
+  font-size: 50px;
+}
+
+.buttons {
+  background-color: rgba(193, 204, 45, 0.055);
+  margin-top: 20px;
+  padding: 10px;
+  height: 485px;
+  border-radius: 10px;
+  border: 2px solid rgba(37, 26, 49, 0.24);
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: repeat(5, 90px);
+  gap: 4px;
+}
+
+.button {
+  height: 90px;
+  width: 100px;
+  background-color: rgb(74, 76, 85);
+  border: 1px solid rgb(13, 15, 80);
+  color: rgb(211, 211, 202);
+  font-size: 40px;
+  border-radius: 8%;
+}
