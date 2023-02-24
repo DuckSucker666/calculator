@@ -57,9 +57,15 @@ body {
   padding: 20px;
 }
 
-.screen-content {
+.current-operand {
   color: rgb(0, 255, 242);
-  font-size: 50px;
+  font-size: 40px;
+}
+
+.previous-operand {
+  color: rgb(0, 255, 242);
+  font-size: 20px;
+  padding-right: 05px;
 }
 
 .buttons {
@@ -75,7 +81,7 @@ body {
   gap: 4px;
 }
 
-.button {
+button {
   height: 90px;
   width: 100px;
   background-color: rgb(74, 76, 85);
@@ -83,4 +89,5 @@ body {
   color: rgb(211, 211, 202);
   font-size: 40px;
   border-radius: 8%;
+  cursor: pointer;
 }

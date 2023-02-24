@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
   <title>Calculator</title>
 </head>
 
@@ -21,41 +22,32 @@
       </div>
     </div>
     <div class="screen">
-      <div class="screen-content">
-        123
-      </div>
+      <div data-previous-operand class="previous-operand"></div>
+      <div data-current-operand class="current-operand"></div>
     </div>
     <div class="buttons">
-      <button class="button" class="on" value="clear" style="background: rgb(55, 59, 126)" data-key="220">ON</button>
-      <button class="button" class="percent" value="clear" data-key="37"
-        style="background: rgb(134, 119, 29)">%</button>
-      <button class="button" class="allClear" value="clear" data-key="32"
-        style="background: rgb(167, 58, 79)">AC</button>
-      <button class="button" class="clear" value="clear" data-key="8" style="background: rgb(167, 58, 79)">C</button>
-      <button class="button" class="number" value="clear" data-key="55">7</button>
-      <button class="button" class="number" value="clear" data-key="56">8</button>
-      <button class="button" class="number" value="clear" data-key="57">9</button>
-      <button class="button" class="operator" value="clear" data-key="47"
-        style="background: rgb(134, 119, 29)">/</button>
-      <button class="button" class="number" value="clear" data-key="52">4</button>
-      <button class="button" class="number" value="clear" data-key="53">5</button>
-      <button class="button" class="number" value="clear" data-key="54">6</button>
-      <button class="button" class="operator" value="clear" data-key="42"
-        style="background: rgb(134, 119, 29)">*</button>
-      <button class="button" class="number" value="clear" data-key="49">1</button>
-      <button class="button" class="number" value="clear" data-key="50">2</button>
-      <button class="button" class="number" value="clear" data-key="51">3</button>
-      <button class="button" class="operator" value="clear" data-key="45"
-        style="background: rgb(134, 119, 29)">-</button>
-      <button class="button" class="number" value="clear" data-key="48">0</button>
-      <button class="button" class="dot" value="clear" data-key="46">.</button>
-      <button class="button" class="equal" value="clear" data-key="61" style="background: rgb(29, 99, 41)">=</button>
-      <button class="button" class="operator" value="clear" data-key="43"
-        style="background: rgb(134, 119, 29)">+</button>
+      <button style="background: rgb(55, 59, 126)" data-on>ON</button>
+      <button data-operation style="background: rgb(134, 119, 29)">%</button>
+      <button data-all-clear style="background: rgb(167, 58, 79)">AC</button>
+      <button data-delete style="background: rgb(167, 58, 79)">C</button>
+      <button data-number>7</button>
+      <button data-number>8</button>
+      <button data-number>9</button>
+      <button data-operation style="background: rgb(134, 119, 29)">/</button>
+      <button data-number>4</button>
+      <button data-number>5</button>
+      <button data-number>6</button>
+      <button data-operation style="background: rgb(134, 119, 29)">*</button>
+      <button data-number>1</button>
+      <button data-number>2</button>
+      <button data-number>3</button>
+      <button data-operation style="background: rgb(134, 119, 29)">-</button>
+      <button data-number>0</button>
+      <button data-number>.</button>
+      <button data-equals style="background: rgb(29, 99, 41)">=</button>
+      <button data-operation style="background: rgb(134, 119, 29)">+</button>
     </div>
   </div>
 
 </body>
-<script src="main.js"></script>
-
 </html>
